@@ -1,0 +1,31 @@
+<!-- Section Services avec style pour Transfert Aéroport -->
+<section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+        <!-- Service : Transfert Aéroport -->
+        <div class="service" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #333; color: #fff; text-align: center; padding: 40px; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); border-radius: 10px; margin: 20px auto; max-width: 500px;">
+            <img src="assets/vtc1.jpg" alt="Transfert Aéroport" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; opacity: 0.9;">
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 2em; margin: 0; letter-spacing: 3px; font-weight: 700; line-height: 1.2;">Transfert Aéroport</h3>
+            <p style="font-size: 1.1rem; margin: 15px 0; line-height: 1.5;">
+                Voyagez en toute tranquillité entre l'aéroport et votre destination avec notre service de transfert premium.
+            </p>
+            <form action="reservation.html" method="post" style="display: flex; flex-direction: column; align-items: center; gap: 15px; width: 100%;">
+                <label for="airport-pickup" style="font-size: 1rem; color: #ddd;">Lieu de prise en charge :</label>
+                <input type="text" id="airport-pickup" name="airport_pickup" placeholder="Adresse ou nom de l'aéroport" required 
+                       style="padding: 10px; border: none; border-radius: 5px; width: 80%; font-size: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+                <label for="airport-destination" style="font-size: 1rem; color: #ddd;">Destination :</label>
+                <input type="text" id="airport-destination" name="airport_destination" placeholder="Adresse de destination" required 
+                       style="padding: 10px; border: none; border-radius: 5px; width: 80%; font-size: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+                <label for="airport-date" style="font-size: 1rem; color: #ddd;">Date :</label>
+                <input type="date" id="airport-date" name="airport_date" required 
+                       style="padding: 10px; border: none; border-radius: 5px; width: 80%; font-size: 1rem; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+                <button type="submit" style="padding: 10px 20px; background-color: #555; color: #fff; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); transition: background-color 0.3s;">
+                    Réserver
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
